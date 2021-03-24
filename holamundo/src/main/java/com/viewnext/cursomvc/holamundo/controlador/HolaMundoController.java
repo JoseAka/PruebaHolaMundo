@@ -13,7 +13,7 @@ public class HolaMundoController {
 
     @RequestMapping("/holamundo")
     public String handler(Model model) {
-
+    	//PROBANDO GIT CON ECLIPSE
         HolaMundo holaMundo = new HolaMundo();
         holaMundo.setMessage("Hola mundo con Spring MVC 5!!!");
         holaMundo.setDateTime(LocalDateTime.now().toString());
